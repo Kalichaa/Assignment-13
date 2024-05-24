@@ -9,6 +9,12 @@
     font-family: "Roboto", sans-serif;
     font-weight: $weight;
     font-style: normal;
+    color: $color;
     // color: $color;
     line-height: $height;
+}
+
+@mixin impBgImg($url: url, $position: center, $repeat: no-repeat) {
+    background-image: url($url);
+    background-position: $position;
 }
